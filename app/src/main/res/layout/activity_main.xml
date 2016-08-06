@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7e7e7"
+    android:padding="16dp">
+
+    <TextView
+        android:text="متن موردنظر با فونت یکان"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/txtyekan"
+        android:background="#fff"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:text="متن موردنظر با فونت کودک"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/txtkoodak"
+        android:layout_below="@+id/txtyekan"
+        android:background="#fff"
+        android:allowUndo="false"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="دکمه نمونه"
+        android:id="@+id/btnclick"
+        android:layout_below="@+id/txtkoodak"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="طراحی شده توسط آکادمی مجازی ذره بین"
+        android:id="@+id/txtcopyright"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textIsSelectable="false"
+        android:textStyle="bold" />
+</RelativeLayout>
